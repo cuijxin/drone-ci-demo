@@ -5,4 +5,4 @@ steps:
 - name: hello-drone
   image: docker
   commands:
-    - echo "Hello, Drone"
+    - echo "Hello, Drone Drone Dronen"
