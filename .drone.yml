@@ -1,8 +1,10 @@
 kind: pipeline
-name: deploy
+type: kubernetes
+name: default
 
 steps:
-- name: hello-drone
-  image: docker
+- name: greeting
+  image: alpine
   commands:
-    - echo "Hello, World; Hello, Drone "
+  - echo hello
+  - echo world
